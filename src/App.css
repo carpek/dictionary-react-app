@@ -1,7 +1,8 @@
-.footer {
+.App-footer{
 font-family:'Courier New', Courier, monospace;
 font-size: 12px;
 text-align: center;
+margin: 30px;
 }
 
 .App-logo {
