@@ -12,7 +12,6 @@ if (props.synonyms) {
             </li>
         )
     }
-        
         )}
 </ul>
 ); 
