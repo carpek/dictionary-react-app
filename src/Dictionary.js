@@ -26,7 +26,10 @@ return ( <div className="Dictionary">
     <section>
     <form onSubmit={search}>
     <input type="search" onChange={handleKeywordSearch} />
-    </form></section>
+    </form>
+    <div className="hint">
+<small>i.e. sunset, wine, avocado</small>
+    </div></section>
 <Results results={results} />
 </div>
 

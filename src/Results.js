@@ -3,6 +3,7 @@ import './Results.css';
 import Meaning from './Meaning';
 import Phonetics from './Phonetics';
 
+
 export default function Results(props) {
 
 if(props.results) {

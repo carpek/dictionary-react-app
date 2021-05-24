@@ -1,16 +1,26 @@
-.App-footer{
+body {
+background-color: #FFDCBA;
 font-family:'Courier New', Courier, monospace;
+
+}
+
+.App-footer{
 font-size: 12px;
 text-align: center;
 margin: 30px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0px 5px 15px rgba(0, 0, 0, 20%);
+
 }
 
 .App-logo {
   display: block;
   margin: 0 auto;
   max-width: 250px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 20%);
+
 }
 
-body {
-  background-color: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-}
