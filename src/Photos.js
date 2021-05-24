@@ -11,9 +11,9 @@ return (
      
     {props.photos.map(function(photos, index) {
         return ( 
-            <div className="col-lg-4 d-flex" key={index}>
+            <div className="col-4" key={index}>
             <a href={photos.src.original} target="_blank" rel="noreferrer">
-            <img src={photos.src.landscape} fluid alt="your requested pic" />
+            <img src={photos.src.landscape} className="img-fluid" alt="your requested pic" />
             </a></div>
             );
     })}
