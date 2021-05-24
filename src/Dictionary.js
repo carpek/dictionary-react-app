@@ -16,7 +16,7 @@ setResults(response.data[0]);
 }
 
 function handlePexelsResponse(response) {
-    console.log(response);
+    
     setPhotos(response.data.photos);
 }
 
