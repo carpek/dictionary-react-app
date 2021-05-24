@@ -1,18 +1,21 @@
 body {
+padding: 30px;
 background-color: #FFDCBA;
 font-family:'Courier New', Courier, monospace;
 
 }
 
 .App-footer{
-font-size: 12px;
+font-size: 13px;
 text-align: center;
 margin: 30px;
 background-color: white;
 border-radius: 5px;
 box-shadow: 0px 5px 15px rgba(0, 0, 0, 20%);
-
+padding: 20px;
 }
+
+
 
 .App-logo {
   display: block;
@@ -24,3 +27,14 @@ box-shadow: 0px 5px 15px rgba(0, 0, 0, 20%);
 
 }
 
+.App .linkedin-logo {
+  padding-left: 10px;
+  max-width: 2%;
+  max-height: 2%;
+}
+
+.App .githublogo {
+  padding-top: 10px;
+  max-width: 2%;
+  max-height: 2%;
+}

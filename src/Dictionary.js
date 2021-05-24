@@ -37,6 +37,7 @@ search();
 if (loaded) {
     return ( <div className="Dictionary">
     <section>
+    <h1>What word are you looking for?</h1>
     <form onSubmit={handleSubmit}>
     <input type="search" onChange={handleKeywordSearch} />
     </form>

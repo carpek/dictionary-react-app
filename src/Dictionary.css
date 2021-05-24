@@ -6,14 +6,21 @@ padding: 30px;
 margin: 20px 0;
 }
 
+.Dictionary h1 {
+    text-align: center;
+    font-size: 22px;
+
+}
+
 .Dictionary .hint {
     text-align: center;
     font-size: 12px;
+    padding-top: 5px;
 }
 
 .Dictionary h2 {
 color: #FFDCBA;
-
+font-size: 30px;
 }
 
 
@@ -22,7 +29,7 @@ color: #FFDCBA;
     display: block;
     margin: 0 auto;
     padding: 5px;
-    width: 70%;
+    width: 50%;
     color: #333;
     border: 1px solid #ddd;
 }
