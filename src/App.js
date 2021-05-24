@@ -9,7 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" /> 
       </header>
-<Dictionary />
+
+<Dictionary defaultKeyword="alphabeth" />
+      
       <footer className="App-footer">
           This app was coded by Lina Pek and is open sourced on GitHub
         </footer>
