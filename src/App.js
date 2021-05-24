@@ -17,9 +17,9 @@ function App() {
       <footer className="App-footer">
           This app was coded by <strong>Lina Pek</strong> and is open sourced on 
           <div>
-            <a href="https://github.com/carpek/dictionary-react-app" target="_blank"> <img src={gitublogo} className="githublogo" alt="github"/> </a> </div>
+            <a href="https://github.com/carpek/dictionary-react-app" target="_blank" rel="noreferrer"> <img src={gitublogo} className="githublogo" alt="github"/> </a> </div>
           <div> Find me on LinkedIn
-            <a href="https://at.linkedin.com/in/caroline-pekar-5310aa33" target="_blank"> <img src={linkedin} className="linkedin-logo" alt="linkedin" /> </a> 
+            <a href="https://at.linkedin.com/in/caroline-pekar-5310aa33" target="_blank" rel="noreferrer"> <img src={linkedin} className="linkedin-logo" alt="linkedin" /> </a> 
           </div>
         </footer>
     </div>
