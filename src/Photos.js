@@ -13,7 +13,7 @@ return (
         return ( 
             <div className="col-4" key={index}>
             <a href={photos.src.original} target="_blank" rel="noreferrer">
-            <img src={photos.src.landscape} className="image" width="100%" alt=" " />
+            <img src={photos.src.landscape} className="img-fluid" width="30%" alt=" " />
             </a></div>
             );
     })}
