@@ -1,7 +1,7 @@
 body {
 padding: 30px;
 background-color: #FFDCBA;
-font-family:'Courier New', Courier, monospace;
+font-family: 'Courier New', Courier, monospace
 
 }
 
@@ -29,8 +29,8 @@ padding: 20px;
 
 .App .linkedin-logo {
   padding-left: 10px;
-  max-width: 2%;
-  max-height: 2%;
+  max-width: 4%;
+  max-height: 4%;
 }
 
 .App .githublogo {
